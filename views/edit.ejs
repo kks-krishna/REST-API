@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit the Post</title>
+</head>
+<body> 
+    <h1>Edit your Password</h1>
+    <h2>Create New Password</h2>
+    <form method="post" action="/post/<%=post.id%>?_method=PATCH"> 
+        <input placeholder= "<%=post.password%>" type="text" name="password" />
+        <button>Submit Post</button>
+    </form>
+
+    
+</body>
+</html>
